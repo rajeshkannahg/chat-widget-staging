@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.shutterstock.com/image-vector/ui-ux-design-mobile-messenger-600nw-2167277267.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+ul.navbar-nav .nav-item .nav-link:hover {
+    color: #ddd;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
